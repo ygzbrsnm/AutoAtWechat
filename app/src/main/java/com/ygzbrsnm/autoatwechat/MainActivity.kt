@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
             startFloat()
             openWeChatApplication()
         }
+        btn_plus.setOnClickListener {
+            startActivity(Intent(this, ExcelPlusActivity::class.java))
+        }
     }
 
     private fun handlerInputName(): Boolean {

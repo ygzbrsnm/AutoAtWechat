@@ -19,9 +19,8 @@
         android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:hint="输入要@的人的关键字.用，隔开-----要保证输入的关键字能搜索出唯一的一个人"
-        android:text="amy，A0东，轮胎，老吴，芹菜，等风"
         android:background="#ffffff"
+        android:hint="输入要@的人的关键字.用，隔开-----要保证输入的关键字能搜索出唯一的一个人"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/open_accessibility_setting" />
 
@@ -33,4 +32,12 @@
         android:text="开始"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分割相加(  12/6/47  这种格式)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_save" />
 </androidx.constraintlayout.widget.ConstraintLayout>
